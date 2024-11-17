@@ -5,6 +5,9 @@ build/
 !**/src/main/**/build/
 !**/src/test/**/build/
 
+# application-test.yml은 깃허브에 올리지않기
+application-test.yml
+
 ### STS ###
 .apt_generated
 .classpath

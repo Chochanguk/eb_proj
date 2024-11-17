@@ -1,0 +1,21 @@
+server:
+  # EB는 80 -> 5000으로 자동 할당됨(스프링 부트는) 
+  port: 5000
+
+# db 관련 설정
+spring:
+  datasource:
+    driver-class-name: org.mariadb.jdbc.Driver
+#    url: jdbc:mariadb://localhost:3306/menudb
+    url: jdbc:mariadb://camp-rdb.cl8i0a8iugwi.ap-northeast-2.rds.amazonaws.com:3306/menudb
+    username: swcamp
+    password: swcampswcamp
+
+# jpa 관련 설정
+  jpa:
+    generate-ddl: false
+    show-sql: true
+    database: mysql
+    properties:
+      hibernate:
+        '[format_sql]': true
