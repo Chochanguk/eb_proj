@@ -27,6 +27,6 @@ public class MenuController {
         return returnMenu;
     }
 
-    //eb테스트1
+    //eb테스트2
 }
 
